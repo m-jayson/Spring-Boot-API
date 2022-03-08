@@ -1,4 +1,4 @@
-package com.demo.demoproject.exceptions.handler;
+package com.dsa.stargate.exceptions.handler;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;

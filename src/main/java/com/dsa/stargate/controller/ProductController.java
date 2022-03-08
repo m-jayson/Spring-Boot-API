@@ -1,7 +1,7 @@
-package com.demo.demoproject.controller;
+package com.dsa.stargate.controller;
 
-import com.demo.demoproject.model.Product;
-import com.demo.demoproject.service.ProductService;
+import com.dsa.stargate.model.Product;
+import com.dsa.stargate.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

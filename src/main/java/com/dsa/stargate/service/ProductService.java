@@ -1,6 +1,6 @@
-package com.demo.demoproject.service;
+package com.dsa.stargate.service;
 
-import com.demo.demoproject.model.Product;
+import com.dsa.stargate.model.Product;
 
 import java.util.List;
 

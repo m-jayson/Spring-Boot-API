@@ -1,6 +1,6 @@
-package com.demo.demoproject.service.impl;
+package com.dsa.stargate.service.impl;
 
-import com.demo.demoproject.service.StargateConsumerService;
+import com.dsa.stargate.service.StargateConsumerService;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,4 +1,4 @@
-package com.demo.demoproject.service;
+package com.dsa.stargate.service;
 
 public interface StargateConsumerService {
     String printHelloWorld();

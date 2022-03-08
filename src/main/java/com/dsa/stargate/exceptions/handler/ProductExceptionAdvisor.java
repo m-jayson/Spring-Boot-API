@@ -1,6 +1,6 @@
-package com.demo.demoproject.exceptions.handler;
+package com.dsa.stargate.exceptions.handler;
 
-import com.demo.demoproject.exceptions.ProductException;
+import com.dsa.stargate.exceptions.ProductException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
