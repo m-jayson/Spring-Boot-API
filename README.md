@@ -25,8 +25,6 @@ Never write another getter or equals method again, with one annotation your clas
 
 See [LICENSE] for the Project Lombok license.
 
-Looking for professional support of Project Lombok? Lombok is now part of a [tidelift subscription]!
-
 For a list of all authors, see the [AUTHORS] file.
 
 For complete project information, see [projectlombok.org]
