@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "Demo API", version = "1.0", description = "Demo API for Java Spring Boot Application"))
+@OpenAPIDefinition(info = @Info(title = "DSA Stargate consumer API", version = "1.0", description = "DSA Stargate consumer API for Java Spring Boot Application"))
 public class DemoProjectApplication {
 
 	public static void main(String[] args) {

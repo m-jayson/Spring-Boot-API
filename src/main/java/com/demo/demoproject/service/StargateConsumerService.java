@@ -1,6 +1,6 @@
 package com.demo.demoproject.service;
 
-public interface HelloWorldService {
+public interface StargateConsumerService {
     String printHelloWorld();
     String printHelloWorldName(String name);
 }
