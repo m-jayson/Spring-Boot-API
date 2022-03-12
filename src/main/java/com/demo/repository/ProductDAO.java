@@ -1,6 +1,6 @@
-package com.dsa.stargate.repository;
+package com.demo.repository;
 
-import com.dsa.stargate.model.Product;
+import com.demo.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

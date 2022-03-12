@@ -1,4 +1,4 @@
-package com.dsa.stargate.exceptions;
+package com.demo.exceptions;
 
 public class ProductException extends RuntimeException{
 

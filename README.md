@@ -5,34 +5,15 @@ Minimal [Spring Boot](http://projects.spring.io/spring-boot/) sample app.
 
 For building and running the application you need:
 
-- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [JDK 11](https://www.oracle.com/java/technologies/downloads/#java11)
 - [Maven 3](https://maven.apache.org)
 
 ## Running the application locally
 
-There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `com.dsa.stargate.Application` class from your IDE.
+There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `com.demo.Application` class from your IDE.
 
 Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so:
 
 ```shell
 mvn spring-boot:run
 ```
-
-# Project Lombok
-
-Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
-Never write another getter or equals method again, with one annotation your class has a fully featured builder, automate your logging variables, and much more.
-
-See [LICENSE] for the Project Lombok license.
-
-For a list of all authors, see the [AUTHORS] file.
-
-For complete project information, see [projectlombok.org]
-
-You can review our security policy via [SECURITY.md]
-
-[LICENSE]: https://github.com/projectlombok/lombok/blob/master/LICENSE
-[AUTHORS]: https://github.com/projectlombok/lombok/blob/master/AUTHORS
-[SECURITY.md]: https://github.com/projectlombok/lombok/blob/master/SECURITY.md
-[projectlombok.org]: https://projectlombok.org/
-[tidelift subscription]: https://tidelift.com/subscription/pkg/maven-org-projectlombok-lombok?utm_source=maven-org-projectlombok-lombok&utm_medium=referral&campaign=website

@@ -1,10 +1,10 @@
-package com.dsa.stargate.service.impl;
+package com.demo.service.impl;
 
-import com.dsa.stargate.service.StargateConsumerService;
+import com.demo.service.HelloWorldService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class StargateConsumerServiceImpl implements StargateConsumerService {
+public class HelloWorldServiceImpl implements HelloWorldService {
 
     @Override
     public String printHelloWorld() {

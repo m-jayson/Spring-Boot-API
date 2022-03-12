@@ -1,6 +1,6 @@
-package com.dsa.stargate.service;
+package com.demo.service;
 
-public interface StargateConsumerService {
+public interface HelloWorldService {
     String printHelloWorld();
     String printHelloWorldName(String name);
 }

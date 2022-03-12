@@ -1,9 +1,9 @@
-package com.dsa.stargate.service.impl;
+package com.demo.service.impl;
 
-import com.dsa.stargate.exceptions.ProductException;
-import com.dsa.stargate.model.Product;
-import com.dsa.stargate.repository.ProductDAO;
-import com.dsa.stargate.service.ProductService;
+import com.demo.exceptions.ProductException;
+import com.demo.model.Product;
+import com.demo.repository.ProductDAO;
+import com.demo.service.ProductService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

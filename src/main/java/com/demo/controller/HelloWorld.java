@@ -1,6 +1,6 @@
-package com.dsa.stargate.controller;
+package com.demo.controller;
 
-import com.dsa.stargate.service.StargateConsumerService;
+import com.demo.service.HelloWorldService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -8,18 +8,18 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/hello")
 @CrossOrigin(origins = "*")
-public class StargateConsumerController {
+public class HelloWorld {
 
     @Autowired
-    StargateConsumerService stargateConsumerService;
+    HelloWorldService helloWorldService;
 
     @GetMapping
     public ResponseEntity<String> hello(){
-        return ResponseEntity.ok(this.stargateConsumerService.printHelloWorld());
+        return ResponseEntity.ok(this.helloWorldService.printHelloWorld());
     }
 
     @GetMapping("/{name}")
     public ResponseEntity<String> helloName(@PathVariable("name") String name){
-        return ResponseEntity.ok(this.stargateConsumerService.printHelloWorldName(name));
+        return ResponseEntity.ok(this.helloWorldService.printHelloWorldName(name));
     }
 }

@@ -1,4 +1,4 @@
-package com.dsa.stargate.model;
+package com.demo.model;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
